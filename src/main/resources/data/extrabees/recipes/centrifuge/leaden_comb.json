@@ -1,0 +1,56 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ],
+      "recipe": {
+        "type": "forestry:centrifuge",
+        "input": {
+          "item": "extrabees:leaden_comb"
+        },
+        "products": [
+          {
+            "chance": 1.0,
+            "item": "forestry:beeswax"
+          },
+          {
+            "chance": 0.9,
+            "item": "mekanism:dust_lead"
+          }
+        ],
+        "time": 20
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal_foundation"
+        }
+      ],
+      "recipe": {
+        "type": "forestry:centrifuge",
+        "input": {
+          "item": "extrabees:leaden_comb"
+        },
+        "products": [
+          {
+            "chance": 1.0,
+            "item": "forestry:beeswax"
+          },
+          {
+            "chance": 0.9,
+            "item": "thermal:lead_dust"
+          }
+        ],
+        "time": 20
+      }
+    }
+  ]
+}

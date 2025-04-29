@@ -1,0 +1,34 @@
+{
+  "itemGroup.extrabees_tab" : "ExtraBees",
+
+  "allele.forestry.bee_species.extrabees.bee_arid": "Arid",
+  "allele.forestry.bee_species.extrabees.bee_barren": "Barren",
+  "allele.forestry.bee_species.extrabees.bee_desolate": "Desolate",
+
+  "allele.forestry.bee_species.extrabees.bee_rocky": "Rocky",
+  "allele.forestry.bee_species.extrabees.bee_tolerant": "Tolerant",
+  "allele.forestry.bee_species.extrabees.bee_robust": "Robust",
+  "allele.forestry.bee_species.extrabees.bee_resilient": "Resilient",
+
+  "allele.forestry.bee_species.extrabees.bee_unstable": "Unstable",
+  "allele.forestry.bee_species.extrabees.bee_nuclear": "Nuclear",
+  "allele.forestry.bee_species.extrabees.bee_radioactive": "Radioactive",
+
+  "allele.forestry.bee_species.extrabees.bee_decaying": "Decaying",
+  "allele.forestry.bee_species.extrabees.bee_skeletal": "Skeletal",
+  "allele.forestry.bee_species.extrabees.bee_creepy": "Creepy",
+
+  "allele.forestry.bee_species.extrabees.bee_rusty": "Rusty",
+  "allele.forestry.bee_species.extrabees.bee_corroded": "Corroded",
+  "allele.forestry.bee_species.extrabees.bee_tarnished": "Tarnished",
+  "allele.forestry.bee_species.extrabees.bee_leaden": "Leaden",
+
+  "item.extrabees.rocky_comb": "Rocky Comb",
+  "item.extrabees.barren_comb": "Barren Comb",
+  "item.extrabees.rotting_comb": "Rotting Comb",
+  "item.extrabees.nuclear_comb": "Nuclear Comb",
+  "item.extrabees.rusty_comb": "Rusty Comb",
+  "item.extrabees.corroded_comb": "Corroded Comb",
+  "item.extrabees.tarnished_comb": "Tarnished Comb",
+  "item.extrabees.leaden_comb": "Leaden Comb"
+}

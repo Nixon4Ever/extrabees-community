@@ -1,0 +1,17 @@
+{
+  "type": "forestry:centrifuge",
+  "input": {
+    "item": "extrabees:rocky_comb"
+  },
+  "products": [
+    {
+      "chance": 0.7,
+      "item": "forestry:beeswax"
+    },
+    {
+      "chance": 0.15,
+      "item": "minecraft:flint"
+    }
+  ],
+  "time": 20
+}

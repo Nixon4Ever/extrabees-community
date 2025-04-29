@@ -1,0 +1,73 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ],
+      "recipe": {
+        "type": "forestry:centrifuge",
+        "input": {
+          "item": "extrabees:corroded_comb"
+        },
+        "products": [
+          {
+            "chance": 1.0,
+            "item": "forestry:beeswax"
+          },
+          {
+            "chance": 0.9,
+            "item": "mekanism:dust_copper"
+          }
+        ],
+        "time": 20
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal_foundation"
+        }
+      ],
+      "recipe": {
+        "type": "forestry:centrifuge",
+        "input": {
+          "item": "extrabees:corroded_comb"
+        },
+        "products": [
+          {
+            "chance": 1.0,
+            "item": "forestry:beeswax"
+          },
+          {
+            "chance": 0.9,
+            "item": "thermal:copper_dust"
+          }
+        ],
+        "time": 20
+      }
+    },
+    {
+      "type": "forestry:centrifuge",
+      "input": {
+        "item": "extrabees:corroded_comb"
+      },
+      "products": [
+        {
+          "chance": 1.0,
+          "item": "forestry:beeswax"
+        },
+        {
+          "chance": 0.9,
+          "item": "minecraft:copper_nugget"
+        }
+      ],
+      "time": 20
+    }
+  ]
+}
