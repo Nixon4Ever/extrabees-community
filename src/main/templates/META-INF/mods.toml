@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="{fmlVersionRange}"
+issueTrackerURL="https://github.com/Nixon4Ever/extrabees-community/issues"
+
+license="GNU Lesser Public License v3"
+
+[[mods]]
+	modId="extrabees"
+	version="${version}"
+	displayName="ExtraBees"
+	displayURL="https://github.com/Nixon4Ever/extrabees-community"
+	logoFile="extrabees_logo.png"
+	credits="thedarkcolour, Binnie, SirSengir, mezz, Nedelosk, , mistaqur, CovertJaguar, MysteriousAges, Nirek, Temp1011, ramidzkh, EnderiumSmith, Spearkiller"
+	authors="Nixon"
+	description='''
+	extra bees
+	'''
+
+[[dependencies.extrabees]]
+	modId="forge"
+	mandatory=true
+	versionRange="${forgeVersionRange}"
+	ordering="NONE"
+	side="BOTH"
+
+[[dependencies.extrabees]]
+	modId="patchouli"
+	mandatory=true
+	versionRange="${patchouliVersionRange}"
+	ordering="NONE"
+	side="BOTH"
+
+[[dependencies.extrabees]]
+	modId="jei"
+	mandatory=false
+	versionRange="${jeiVersionRange}"
+	ordering="NONE"
+	side="CLIENT"
+
+[[dependencies.extrabees]]
+	modId="forestry"
+	mandatory=true
+	versionRange="${forestryVersionRange}"
+	ordering="NONE"
+	side="BOTH"
