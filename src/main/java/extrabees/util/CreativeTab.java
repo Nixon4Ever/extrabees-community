@@ -8,6 +8,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+@SuppressWarnings("unused")
 public class CreativeTab {
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ExtraBeesConstants.MOD_ID);
     public static final RegistryObject<CreativeModeTab> EXTRABEES_TAB = TABS.register("extrabees_tab",

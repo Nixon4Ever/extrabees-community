@@ -1,4 +1,3 @@
 @ParametersAreNonnullByDefault
 package extrabees.api;
-
 import javax.annotation.ParametersAreNonnullByDefault;

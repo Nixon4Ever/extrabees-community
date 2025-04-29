@@ -9,6 +9,7 @@ import forestry.api.plugin.IApicultureRegistration;
 import forestry.api.plugin.IForestryPlugin;
 import forestry.api.plugin.IGeneticRegistration;
 import net.minecraft.resources.ResourceLocation;
+import org.jetbrains.annotations.NotNull;
 
 import java.awt.*;
 
@@ -18,11 +19,11 @@ import static extrabees.api.ExtraBeesTaxa.*;
 public class ExtraBeesForestryPlugin implements IForestryPlugin {
     public static final ResourceLocation ID = ExtraBeesConstants.extrabees("default");
     @Override
-    public ResourceLocation id() {
+    public @NotNull ResourceLocation id() {
         return ID;
     }
     @Override
-    public void registerGenetics(IGeneticRegistration genetics){
+    public void registerGenetics(@NotNull IGeneticRegistration genetics){
         ExtraBeesTaxonomy.defineTaxa(genetics);
     }
     @Override

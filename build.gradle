@@ -9,7 +9,6 @@ plugins {
 
 group = "nixon.extrabees"
 version = extrabeesVersion
-archivesBaseName = "extrabees-$minecraftVersion"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
