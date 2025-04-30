@@ -20,10 +20,25 @@ public class CreativeTab {
                         output.accept(ExtraBeesItems.BARREN_COMB.get());
                         output.accept(ExtraBeesItems.NUCLEAR_COMB.get());
                         output.accept(ExtraBeesItems.ROTTING_COMB.get());
+
                         output.accept(ExtraBeesItems.RUSTY_COMB.get());
                         output.accept(ExtraBeesItems.CORRODED_COMB.get());
                         output.accept(ExtraBeesItems.TARNISHED_COMB.get());
                         output.accept(ExtraBeesItems.LEADEN_COMB.get());
+
+                        output.accept(ExtraBeesItems.DIAMOND_COMB.get());
+                        output.accept(ExtraBeesItems.EMERALD_COMB.get());
+                        output.accept(ExtraBeesItems.RUBY_COMB.get());
+                        output.accept(ExtraBeesItems.SAPPHIRE_COMB.get());
+
+                        output.accept(ExtraBeesItems.RESOLUTE_COMB.get());
+                        output.accept(ExtraBeesItems.FORTIFIED_COMB.get());
+                        output.accept(ExtraBeesItems.STAINLESS_COMB.get());
+                        output.accept(ExtraBeesItems.INVARIABLE_COMB.get());
+
+                        output.accept(ExtraBeesItems.SHINING_COMB.get());
+                        output.accept(ExtraBeesItems.GLITTERING_COMB.get());
+                        output.accept(ExtraBeesItems.GILDED_COMB.get());
                     })
                     .withSearchBar()
                     .build()

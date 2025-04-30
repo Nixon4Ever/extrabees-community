@@ -26,4 +26,24 @@ public class ExtraBeesBeeSpecies {
     public static final ResourceLocation CORRODED = extrabees("bee_corroded");
     public static final ResourceLocation TARNISHED = extrabees("bee_tarnished");
     public static final ResourceLocation LEADEN = extrabees("bee_leaden");
+
+    public static final ResourceLocation DIAMOND = extrabees("bee_diamond");
+    public static final ResourceLocation EMERALD = extrabees("bee_emerald");
+    public static final ResourceLocation RUBY = extrabees("bee_ruby");
+    public static final ResourceLocation SAPPHIRE = extrabees("bee_sapphire");
+
+    public static final ResourceLocation RESOLUTE = extrabees("bee_resolute");
+    public static final ResourceLocation STAINLESS = extrabees("bee_stainless");
+    public static final ResourceLocation FORTIFIED = extrabees("bee_fortified");
+    public static final ResourceLocation INVARIABLE = extrabees("bee_invariable");
+
+    public static final ResourceLocation GILDED = extrabees("bee_gilded");
+    public static final ResourceLocation SHINING = extrabees("bee_shining");
+    public static final ResourceLocation GLITTERING = extrabees("bee_glittering");
+
+
+    //public static final ResourceLocation DIAMOND = extrabees("bee_diamond");
+    //public static final ResourceLocation EMERALD = extrabees("bee_emerald");
+    //public static final ResourceLocation RUBY = extrabees("bee_ruby");
+    //public static final ResourceLocation SAPPHIRE = extrabees("bee_sapphire");
 }

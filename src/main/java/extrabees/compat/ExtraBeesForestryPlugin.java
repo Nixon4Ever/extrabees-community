@@ -175,5 +175,107 @@ public class ExtraBeesForestryPlugin implements IForestryPlugin {
                     genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
                     genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
                 });
+
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.EMERALD, GENUS_GEMSTONE, SPECIES_EMERALD, true, new Color(0x1cfe03))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.EMERALD_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.RUBY, GENUS_GEMSTONE, SPECIES_RUBY, true, new Color(0xd50000))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.RUBY_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.SAPPHIRE, GENUS_GEMSTONE, SPECIES_SAPPHIRE, true, new Color(0x0a47fe))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.SAPPHIRE_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.DIAMOND, GENUS_GEMSTONE, SPECIES_DIAMOND, true, new Color(0x67e4d7))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.DIAMOND_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.RESOLUTE, GENUS_METALLIC, SPECIES_RESOLUTE, true, new Color(0xC1843E))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.RESOLUTE_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.STAINLESS, GENUS_METALLIC, SPECIES_STAINLESS, true, new Color(0xB8A8A1))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.STAINLESS_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.FORTIFIED, GENUS_METALLIC, SPECIES_FORTIFIED, true, new Color(0x737373))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.FORTIFIED_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.INVARIABLE, GENUS_METALLIC, SPECIES_INVARIABLE, true, new Color(0xBFBBAC))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.INVARIABLE_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.GILDED, GENUS_PRECIOUS, SPECIES_GILDED, true, new Color(0xE3CD80))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.GILDED_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.SHINING, GENUS_PRECIOUS, SPECIES_SHINING, true, new Color(0xFFFFFF))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.SHINING_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
+        apiculture.registerSpecies(ExtraBeesBeeSpecies.GLITTERING, GENUS_PRECIOUS, SPECIES_GLITTERING, true, new Color(0xE4C737))
+                .setBody(new Color(0x7F7F7F))
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.12f)
+                .addProduct(ExtraBeesItems.GLITTERING_COMB.get().getDefaultInstance(), 0.12f)
+                .setGenome(genome -> {
+                    genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWER);
+                    genome.set(BeeChromosomes.FERTILITY, ForestryAlleles.FERTILITY_3);
+                    genome.set(BeeChromosomes.TEMPERATURE_TOLERANCE, ForestryAlleles.TOLERANCE_DOWN_1);
+                });
     }
 }
