@@ -9,6 +9,9 @@
   "allele.forestry.bee_species.extrabees.bee_tolerant": "Tolerant",
   "allele.forestry.bee_species.extrabees.bee_robust": "Robust",
   "allele.forestry.bee_species.extrabees.bee_resilient": "Resilient",
+  "allele.forestry.bee_species.extrabees.bee_lapis": "Lapis",
+
+  "allele.forestry.bee_species.extrabees.bee_fossilized": "Fossilized",
 
   "allele.forestry.bee_species.extrabees.bee_unstable": "Unstable",
   "allele.forestry.bee_species.extrabees.bee_nuclear": "Nuclear",
@@ -43,6 +46,8 @@
   "item.extrabees.rotting_comb": "Rotting Comb",
   "item.extrabees.nuclear_comb": "Nuclear Comb",
   "item.extrabees.rusty_comb": "Rusty Comb",
+  "item.extrabees.lapis_comb": "Lapis Comb",
+  "item.extrabees.fossilized_comb": "Fossilized Comb",
   "item.extrabees.corroded_comb": "Corroded Comb",
   "item.extrabees.tarnished_comb": "Tarnished Comb",
   "item.extrabees.leaden_comb": "Leaden Comb",

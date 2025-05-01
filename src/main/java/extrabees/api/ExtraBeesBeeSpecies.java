@@ -22,10 +22,13 @@ public class ExtraBeesBeeSpecies {
     public static final ResourceLocation NUCLEAR = extrabees("bee_nuclear");
     public static final ResourceLocation RADIOACTIVE = extrabees("bee_radioactive");
 
+    public static final ResourceLocation FOSSILIZED = extrabees("bee_fossilized");
+
     public static final ResourceLocation RUSTY = extrabees("bee_rusty");
     public static final ResourceLocation CORRODED = extrabees("bee_corroded");
     public static final ResourceLocation TARNISHED = extrabees("bee_tarnished");
     public static final ResourceLocation LEADEN = extrabees("bee_leaden");
+    public static final ResourceLocation LAPIS = extrabees("bee_lapis");
 
     public static final ResourceLocation DIAMOND = extrabees("bee_diamond");
     public static final ResourceLocation EMERALD = extrabees("bee_emerald");

@@ -9,6 +9,7 @@ public class ExtraBeesTaxa {
     public static final String GENUS_GEMSTONE = "gemmapis ";
     public static final String GENUS_METALLIC = "metalum ";
     public static final String GENUS_PRECIOUS = "pluriapis ";
+    public static final String GENUS_FOSSIL = "fosiapis ";
 
     public static final String SPECIES_ARID = "aridus";
     public static final String SPECIES_BARREN = "desolo";
@@ -23,6 +24,9 @@ public class ExtraBeesTaxa {
     public static final String SPECIES_ROBUST = "granum";
     public static final String SPECIES_RESILIENT = "minerale";
 
+    public static final String SPECIES_FOSSILIZED = "carbo";
+    public static final String SPECIES_OILY = "lubricus";
+
     public static final String SPECIES_UNSTABLE = "levis";
     public static final String SPECIES_NUCLEAR = "nucleus";
     public static final String SPECIES_RADIOACTIVE = "fervens";
@@ -31,6 +35,7 @@ public class ExtraBeesTaxa {
     public static final String SPECIES_CORRODED = "cuprous";
     public static final String SPECIES_TARNISHED = "stannus";
     public static final String SPECIES_LEADEN = "plumbous";
+    public static final String SPECIES_LAPIS = "lapis";
 
     public static final String SPECIES_DIAMOND = "diama";
     public static final String SPECIES_RUBY = "ruba";

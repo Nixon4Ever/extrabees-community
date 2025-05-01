@@ -16,11 +16,11 @@
         },
         "products": [
           {
-            "chance": 1.0,
+            "chance": 0.5,
             "item": "forestry:beeswax"
           },
           {
-            "chance": 0.9,
+            "chance": 0.25,
             "item": "mekanism:dust_lead"
           }
         ],
@@ -45,7 +45,7 @@
             "item": "forestry:beeswax"
           },
           {
-            "chance": 0.9,
+            "chance": 0.25,
             "item": "thermal:lead_dust"
           }
         ],

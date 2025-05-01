@@ -15,10 +15,13 @@ public class ExtraBeesItems {
     public static final RegistryObject<Item> NUCLEAR_COMB = ITEMS.register("nuclear_comb", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROTTING_COMB = ITEMS.register("rotting_comb", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> FOSSILIZED_COMB = ITEMS.register("fossilized_comb", () -> new Item(new Item.Properties()));  // coal
+
     public static final RegistryObject<Item> RUSTY_COMB = ITEMS.register("rusty_comb", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CORRODED_COMB = ITEMS.register("corroded_comb", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TARNISHED_COMB = ITEMS.register("tarnished_comb", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LEADEN_COMB = ITEMS.register("leaden_comb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_COMB = ITEMS.register("lapis_comb", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DIAMOND_COMB = ITEMS.register("diamond_comb", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBY_COMB = ITEMS.register("ruby_comb", () -> new Item(new Item.Properties()));

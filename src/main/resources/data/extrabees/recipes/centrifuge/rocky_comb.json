@@ -5,11 +5,15 @@
   },
   "products": [
     {
-      "chance": 0.7,
+      "chance": 0.5,
       "item": "forestry:beeswax"
     },
     {
-      "chance": 0.15,
+      "chance": 0.25,
+      "item": "forestry:honey_drop"
+    },
+    {
+      "chance": 0.10,
       "item": "minecraft:flint"
     }
   ],

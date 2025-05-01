@@ -1,0 +1,6 @@
+{
+  "parent": "extrabees:item/bee_combs",
+  "textures": {
+    "layer0": "extrabees:item/fossilized_comb"
+  }
+}

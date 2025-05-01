@@ -21,10 +21,13 @@ public class CreativeTab {
                         output.accept(ExtraBeesItems.NUCLEAR_COMB.get());
                         output.accept(ExtraBeesItems.ROTTING_COMB.get());
 
+                        output.accept(ExtraBeesItems.FOSSILIZED_COMB.get());
+
                         output.accept(ExtraBeesItems.RUSTY_COMB.get());
                         output.accept(ExtraBeesItems.CORRODED_COMB.get());
                         output.accept(ExtraBeesItems.TARNISHED_COMB.get());
                         output.accept(ExtraBeesItems.LEADEN_COMB.get());
+                        output.accept(ExtraBeesItems.LAPIS_COMB.get());
 
                         output.accept(ExtraBeesItems.DIAMOND_COMB.get());
                         output.accept(ExtraBeesItems.EMERALD_COMB.get());

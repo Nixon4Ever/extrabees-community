@@ -16,7 +16,7 @@
         },
         "products": [
           {
-            "chance": 1.0,
+            "chance": 0.5,
             "item": "forestry:beeswax"
           },
           {
@@ -41,7 +41,7 @@
         },
         "products": [
           {
-            "chance": 1.0,
+            "chance": 0.5,
             "item": "forestry:beeswax"
           },
           {
@@ -59,11 +59,11 @@
       },
       "products": [
         {
-          "chance": 1.0,
+          "chance": 0.5,
           "item": "forestry:beeswax"
         },
         {
-          "chance": 0.95,
+          "chance": 0.9,
           "item": "minecraft:iron_nugget"
         }
       ],
