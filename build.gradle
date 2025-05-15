@@ -113,12 +113,20 @@ dependencies {
 	modRuntimeOnly "vazkii.patchouli:Patchouli:$patchouliVersion-FORGE"
 	// FORESTRY REQUIRED
 	modImplementation "maven.modrinth:forestry-community-edition:$forestryVersion"
+
 	// COFH OPTIONAL
 	modImplementation "maven.modrinth:cofh-core:$COFHVersion"
 	// Thermal foundation OPTIONAL
 	modImplementation "maven.modrinth:thermal-foundation:$ThermalFoundationVersion"
+
 	// Mekanism OPTIONAL
 	modImplementation "maven.modrinth:mekanism:$MekanismVersion"
+
+	// zerocore OPTIONAL
+	modImplementation "maven.modrinth:zerocore:$ZeroCoreVersion"
+	// Extreme reactors OPTIONAL
+	modImplementation "maven.modrinth:extreme-reactors:$ExtremereactorsVersion"
+
 	// ModKit DEV ONLY
 	modImplementation 'com.github.thedarkcolour:ModKit:0302f9aa42'
 

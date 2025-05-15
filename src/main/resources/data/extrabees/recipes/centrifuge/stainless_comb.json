@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal_foundation"
+        }
+      ],
+      "recipe": {
+        "type": "forestry:centrifuge",
+        "input": {
+          "item": "extrabees:stainless_comb"
+        },
+        "products": [
+          {
+            "chance": 0.5,
+            "item": "forestry:beeswax"
+          },
+          {
+            "chance": 0.25,
+            "item": "thermal:nickel_dust"
+          }
+        ],
+        "time": 20
+      }
+    },
+    {
+      "type": "forestry:centrifuge",
+      "input": {
+        "item": "extrabees:stainless_comb"
+      },
+      "products": [
+        {
+          "chance": 0.5,
+          "item": "forestry:beeswax"
+        },
+        {
+          "chance": 0.9,
+          "item": "minecraft:iron_nugget"
+        }
+      ],
+      "time": 20
+    }
+  ]
+}

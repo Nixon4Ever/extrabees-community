@@ -12,7 +12,7 @@ public class ExtraBeesItems {
 
     public static final RegistryObject<Item> ROCKY_COMB = ITEMS.register("rocky_comb", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BARREN_COMB = ITEMS.register("barren_comb", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> NUCLEAR_COMB = ITEMS.register("nuclear_comb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RADIOACTIVE_COMB = ITEMS.register("radioactive_comb", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROTTING_COMB = ITEMS.register("rotting_comb", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> FOSSILIZED_COMB = ITEMS.register("fossilized_comb", () -> new Item(new Item.Properties()));  // coal

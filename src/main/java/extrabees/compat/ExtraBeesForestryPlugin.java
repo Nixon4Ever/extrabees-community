@@ -27,10 +27,12 @@ public class ExtraBeesForestryPlugin implements IForestryPlugin {
     }
     @Override
     public void registerGenetics(@NotNull IGeneticRegistration genetics){
+
         ExtraBeesTaxonomy.defineTaxa(genetics);
     }
     @Override
-    public void registerApiculture(IApicultureRegistration apiculture) {
+    public void registerApiculture(@NotNull IApicultureRegistration apiculture)
+    {
         apiculture.registerSpecies(ExtraBeesBeeSpecies.ARID, GENUS_BARREN, SPECIES_ARID, true, new Color(0xbde754))
                 .setBody(new Color(0xcae274))
                 .addProduct(ExtraBeesItems.BARREN_COMB.get().getDefaultInstance(), 0.10f)
@@ -55,7 +57,8 @@ public class ExtraBeesForestryPlugin implements IForestryPlugin {
 
         apiculture.registerSpecies(ExtraBeesBeeSpecies.ROCKY, GENUS_ROCKY, SPECIES_ROCKY, true, new Color(0xa7a7a7))
                 .setBody(new Color(0x8d8d8d))
-                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.15f);
+                .addProduct(ExtraBeesItems.ROCKY_COMB.get().getDefaultInstance(), 0.15f)
+                .addMutations(mutations -> mutations.add(ForestryBeeSpecies.LUSH, ForestryBeeSpecies.CULTIVATED, 15));
 
         apiculture.registerSpecies(ExtraBeesBeeSpecies.TOLERANT, GENUS_ROCKY, SPECIES_TOLERANT, true, new Color(0x757575))
                 .setBody(new Color(0x8d8d8d))
@@ -101,7 +104,7 @@ public class ExtraBeesForestryPlugin implements IForestryPlugin {
         apiculture.registerSpecies(ExtraBeesBeeSpecies.RADIOACTIVE, GENUS_NUCLEAR, SPECIES_RADIOACTIVE, true, new Color(0x1efe00))
                 .setBody(new Color(0x989898))
                 .addProduct(ExtraBeesItems.BARREN_COMB.get().getDefaultInstance(), 0.08f)
-                .addSpecialty(ExtraBeesItems.NUCLEAR_COMB.get().getDefaultInstance(), 0.05f)
+                .addSpecialty(ExtraBeesItems.RADIOACTIVE_COMB.get().getDefaultInstance(), 0.05f)
                 .addMutations(mutations -> mutations.add(ExtraBeesBeeSpecies.NUCLEAR, ExtraBeesBeeSpecies.UNSTABLE, 5))
 				.setGlint(true);
 

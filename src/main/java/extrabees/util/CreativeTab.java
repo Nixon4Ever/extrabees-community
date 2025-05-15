@@ -18,7 +18,7 @@ public class CreativeTab {
                     .displayItems((displayParams, output) -> {
                         output.accept(ExtraBeesItems.ROCKY_COMB.get());
                         output.accept(ExtraBeesItems.BARREN_COMB.get());
-                        output.accept(ExtraBeesItems.NUCLEAR_COMB.get());
+                        output.accept(ExtraBeesItems.RADIOACTIVE_COMB.get());
                         output.accept(ExtraBeesItems.ROTTING_COMB.get());
 
                         output.accept(ExtraBeesItems.FOSSILIZED_COMB.get());
@@ -43,7 +43,6 @@ public class CreativeTab {
                         output.accept(ExtraBeesItems.GLITTERING_COMB.get());
                         output.accept(ExtraBeesItems.GILDED_COMB.get());
                     })
-                    .withSearchBar()
                     .build()
     );
 }

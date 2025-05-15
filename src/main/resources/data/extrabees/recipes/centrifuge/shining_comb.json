@@ -1,0 +1,73 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ],
+      "recipe": {
+        "type": "forestry:centrifuge",
+        "input": {
+          "item": "extrabees:shining_comb"
+        },
+        "products": [
+          {
+            "chance": 0.5,
+            "item": "forestry:beeswax"
+          },
+          {
+            "chance": 0.25,
+            "item": "mekanism:dust_silver"
+          }
+        ],
+        "time": 20
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal_foundation"
+        }
+      ],
+      "recipe": {
+        "type": "forestry:centrifuge",
+        "input": {
+          "item": "extrabees:shining_comb"
+        },
+        "products": [
+          {
+            "chance": 0.5,
+            "item": "forestry:beeswax"
+          },
+          {
+            "chance": 0.25,
+            "item": "thermal:silver_dust"
+          }
+        ],
+        "time": 20
+      }
+    },
+    {
+      "type": "forestry:centrifuge",
+      "input": {
+        "item": "extrabees:shining_comb"
+      },
+      "products": [
+        {
+          "chance": 0.5,
+          "item": "forestry:beeswax"
+        },
+        {
+          "chance": 0.9,
+          "item": "minecraft:iron_nugget"
+        }
+      ],
+      "time": 20
+    }
+  ]
+}

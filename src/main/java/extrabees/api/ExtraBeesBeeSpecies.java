@@ -44,9 +44,8 @@ public class ExtraBeesBeeSpecies {
     public static final ResourceLocation SHINING = extrabees("bee_shining");
     public static final ResourceLocation GLITTERING = extrabees("bee_glittering");
 
+    public static final ResourceLocation EXCITED = extrabees("bee_excited");
+    public static final ResourceLocation ENERGETIC = extrabees("bee_energetic");
+    public static final ResourceLocation ECSTATIC = extrabees("bee_ecstatic");
 
-    //public static final ResourceLocation DIAMOND = extrabees("bee_diamond");
-    //public static final ResourceLocation EMERALD = extrabees("bee_emerald");
-    //public static final ResourceLocation RUBY = extrabees("bee_ruby");
-    //public static final ResourceLocation SAPPHIRE = extrabees("bee_sapphire");
 }

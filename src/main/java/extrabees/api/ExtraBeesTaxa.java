@@ -10,6 +10,7 @@ public class ExtraBeesTaxa {
     public static final String GENUS_METALLIC = "metalum ";
     public static final String GENUS_PRECIOUS = "pluriapis ";
     public static final String GENUS_FOSSIL = "fosiapis ";
+    public static final String GENUS_ENERGETIC = "incitapis ";
 
     public static final String SPECIES_ARID = "aridus";
     public static final String SPECIES_BARREN = "desolo";
@@ -50,4 +51,8 @@ public class ExtraBeesTaxa {
     public static final String SPECIES_GILDED = "electra";
     public static final String SPECIES_SHINING = "argentus";
     public static final String SPECIES_GLITTERING = "aureus";
+
+    public static final String SPECIES_EXCITED = "excita";
+    public static final String SPECIES_ENERGETIC = "energia";
+    public static final String SPECIES_ECSTATIC = "exctatica";
 }

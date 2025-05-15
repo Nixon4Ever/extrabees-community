@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "extrabees:barren_comb",
+    "extrabees:corroded_comb",
+    "extrabees:diamond_comb",
+    "extrabees:emerald_comb",
+    "extrabees:fortified_comb",
+    "extrabees:fossilized_comb",
+    "extrabees:gilded_comb",
+    "extrabees:glittering_comb",
+    "extrabees:invariable_comb",
+    "extrabees:lapis_comb",
+    "extrabees:leaden_comb",
+    "extrabees:radioactive_comb",
+    "extrabees:resolute_comb",
+    "extrabees:rocky_comb",
+    "extrabees:rotting_comb",
+    "extrabees:ruby_comb",
+    "extrabees:rusty_comb",
+    "extrabees:sapphire_comb",
+    "extrabees:shining_comb",
+    "extrabees:stainless_comb",
+    "extrabees:tarnished_comb"
+  ]
+}
